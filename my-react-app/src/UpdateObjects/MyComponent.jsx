@@ -7,8 +7,14 @@ function MyComponent(){
 
   function handleYearChange(event){
 
+    //...c allows further changes or increament
       setCar(c => ({...c, year: event.target.value}));
+      
   }
+
+//   const decrement = () => {
+//     setCount(count - 1);
+// }
   function handleMakeChange(event){
 
       setCar(c => ({...c, make: event.target.value}));

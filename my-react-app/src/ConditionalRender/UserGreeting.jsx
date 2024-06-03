@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import style from './style.module.css'
 
 function UserGreeting(props){
   // if(props.isLoggedIn){
@@ -7,7 +8,8 @@ function UserGreeting(props){
   // else{
   //   return <h2>Please log in to continue</h2>
   // }
-const welcomeMessage = <h2 className="welcome-message">Welcome {props.username}</h2> 
+const welcomeMessage = <h2 className={style.welcome}>Welcome {props.username}</h2> 
+
 
 const loginPrompt = <h2 className="login-prompt">Please log in to continue</h2>
 

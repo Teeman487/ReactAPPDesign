@@ -1,4 +1,21 @@
-import ToDoList from './ReactToDoListApp/ToDoList.jsx';
+// import React from 'react';
+// import { Header } from '.ExpenseTrackerReact/components/Header';
+// import { Balance } from '.ExpenseTrackerReact/components/Balance';
+// import { IncomeExpenses } from '.ExpenseTrackerReact/components/IncomeExpenses';
+// import { TransactionList } from '.ExpenseTrackerReact/components/TransactionList';
+// import { AddTransaction } from '.ExpenseTrackerReact/components/AddTransaction';
+
+// import { GlobalProvider } from '.ExpenseTrackerReact/context/GlobalState';
+
+
+
+// import './App.css';
+
+// import ComponentA from './UseContextHook/ComponentA.jsx';
+// import DigitalClock from './DigitalClock/DigitalClock.jsx';
+// import MyComponent from './UseEffectHook/MyComponent.jsx';
+
+// import ToDoList from './ReactToDoListApp/ToDoList.jsx';
 
 // import MyComponent from './UpdateArrayObjects/MyComponent.jsx'
 
@@ -11,15 +28,48 @@ import ToDoList from './ReactToDoListApp/ToDoList.jsx';
 // import MyComponent from './ColorPickerAPP/ColorPicker.jsx'
 // import MyComponent from './OnchangeEventHandler/MyComponent.jsx'
 // import MyComponent from './UseStateHook/MyComponent.jsx'
-// import Counter from './UserStateHook/Counter.jsx'
+
+
+
+import ToDoList from "./ReactToDoListApp/ToDoList.jsx";
+// import MyComponent from "./OnchangeEventHandler/MyComponent.jsx";
+// import MyComponent from "./OnchangeEventHandler/MyComponent.jsx";
+// import ColorPickerApp from "./ColorPickerAPP/ColorPicker.jsx";
+// import Card from "./CardComponents/Card.jsx";
+// import MyComponent from "./ReactUpdaterFunctions/MyComponent";
+// import MyComponent from "./UpdateArrayObjects/MyComponent.jsx";
+// import Component from './UpdateObjects/MyComponent'
+// import ComponentA from "./UseContextHook/ComponentA";
+// import MyComponent from "./UseEffectHook/MyComponent";
+// import MyComponent from "./UseRefHook/MyComponent.jsx";
+// import Counter from './UseStateHook/Counter.jsx'
+// import MyComponent from './UseStateHook/MyComponent.jsx';
 
 function App() {
-
     return(
+      // <>
+      //   <GlobalProvider>
+      //   <Header />
+      //   <div className="container">
+      //     <Balance />
+      //     <IncomeExpenses />
+      //     <TransactionList />
+      //     <AddTransaction />
+      //   </div>
+      // </GlobalProvider>
+      // </>
 
-     <ToDoList />
-     // <MyComponent /> 
-     // <Counter/>
+
+      <ToDoList/>
+      // <MyComponent/>
+      //  <ColorPickerApp/>
+      // <Card/>
+      // <Component/>
+    //  <ComponentA/>
+    //  <DigitalClock/>
+    //  <ToDoList />
+    //  <MyComponent /> 
+    //  <Counter/>
     );
 }
 export default App
@@ -29,36 +79,9 @@ export default App
 
 
 
+// 5
 
-
-// import Button from './ClickEvents/Button.jsx'
-// import ProfilePicture from './ClickEvents/ProfilePicture.jsx'
-
-// function App() {
-
-//     return( <>
-//                  <Button />
-//                  <ProfilePicture />
-//                </>);
-// }
-// export default App
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import List from "./List.jsx";
+// import List from "./ClickEvents/List.jsx";
 
 // function App() {
 
@@ -76,65 +99,18 @@ export default App
  
 //      return( <>
 //                      {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
+
 //                      {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>}
 //                  </>);
 //  }
  
 //  export default App
- 
-//  function List(props){
-
-//      const category = props.category;
-//      const itemList = props.items;
- 
-//      //itemList.sort((a, b) => a.name.localeCompare(b.name)); // SORT ALPHABETICAL
-//      //itemList.sort((a, b) => a.calories - b.calories); // SORT BY CALORIES
-//      //const lowCalItem = itemList.filter(item => item.calories < 100); // FILTER LOW CALORIES
-//      //const highCalItem = itemList.filter(item => item.calories >= 100); // FILTER HIGH CALORIES
- 
-//      const listItems = itemList.map(item =>  <li key={item.id}>
-//                                                                            {item.name}: &nbsp;
-//                                                                            <b>{item.calories}</b></li>);
-     
-//      return( <>
-//                      <h3 className="list-category">{category}</h3>
-//                      <ol className="list-items">{listItems}</ol>
-//                  </>);
-//  }
-//  List.propTypes = {
-//      category: PropTypes.string,
-//      items: PropTypes.arrayOf(PropTypes.shape({  id: PropTypes.number,
-//                                                                                         name: PropTypes.string,
-//                                                                                         calories: PropTypes.number})),
-//  }
-//  List.defaultProps = {
-//      category: "Category",
-//      items: [],
-//  }
-//  export default List
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import UserGreeting from "./UserGreeting";
+//4
+// import UserGreeting from "./ConditionalRender/UserGreeting";
 
 
 // function App() {
@@ -149,7 +125,9 @@ export default App
 
 
 
-// import Student from './Student.jsx'
+
+// 3
+// import Student from './Props/Student.jsx'
 
 // function App() {
 //      return(
@@ -159,8 +137,42 @@ export default App
 //          <Student name="AbdulRahman" age={0} isStudent={false}/>
 //          <Student name="Toheeb" age={25} isStudent={true}/>
 //          <Student/>
+         
 //       </>
         
 //      );
 // }
 // export default App
+
+
+
+
+
+//2
+// import Button from './ClickEvents/Button.jsx'
+// import ProfilePicture from './ClickEvents/ProfilePicture.jsx'
+
+// function App() {
+
+//     return( <>
+//                  <Button />
+//                  <ProfilePicture />
+//                </>);
+// }
+// export default App
+
+
+
+
+
+// 1
+// import Button from './Button/Button.jsx'       
+// function App() {
+
+//     return(
+//           <Button />
+                 
+//                );
+// }
+// export default App
+

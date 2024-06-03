@@ -5,6 +5,7 @@ import {useState} from 'react';
 //                         (useState, useEffect, useContext, useReducer, and more...)                
 
 // useState() = A React hook that allows the creation of a stateful variable
+
 //                       AND a setter function to update its value in the Virtual DOM.
 //                       [name, setName]
 

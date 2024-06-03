@@ -1,8 +1,8 @@
-import styles from './Button.module.css'
+import style from './Button.module.css'
 
 function Button(){
   return(
-    <button className={styles.button}>Clck me</button>
+    <button className={style.button}>Click me</button>
   ); 
 }
 export default Button

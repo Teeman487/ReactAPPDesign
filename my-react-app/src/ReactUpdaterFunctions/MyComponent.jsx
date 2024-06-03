@@ -11,9 +11,8 @@ function MyComponent() {
     const [count, setCount] = useState(0);
 
     function increment(){
-        setCount(c => c + 1);
-        setCount(c => c + 1);
-        setCount(c => c + 1);
+        setCount(c => c + 4);
+        
     }
  
     function decrement(){
